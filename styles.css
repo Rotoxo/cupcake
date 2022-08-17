@@ -15,7 +15,7 @@ p.Kategorie {
     display: inline-block;
     padding: 10px 18px;
     margin-bottom: 0;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 div.Kategorie {
@@ -26,13 +26,10 @@ div.Kategorie {
 div#WhiteBox {
     background-color: rgba(255,238,188,1.0);
     margin-top: 0px;
-    margin-bottom: 80px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     padding: 30px;
-    min-width: 600px;
-    max-width: 800px;
     overflow: auto;
     box-shadow: 0px 6px 18px 10px rgba(0, 0, 0, 0.6), 0px 3px 5px 0 rgba(0, 0, 0, 0.8);
 }
@@ -65,7 +62,6 @@ img#bild {
     width: 100%;
     max-height: 400px;
     min-height: 300px;
-    background-color: lightgrey;
     object-fit: cover;
 }
 
@@ -141,4 +137,22 @@ div.tipp {
     margin-top: 20px;
     width: 100%;
     text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+    div#WhiteBox {
+        margin-top: 0px;
+        margin-bottom: 80px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+        padding: 30px;
+        min-width: 600px;
+        max-width: 800px;
+    }
+
+    p.Kategorie {
+        margin-top: 30px;
+    }
 }
