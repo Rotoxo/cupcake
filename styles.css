@@ -15,7 +15,7 @@ p.Kategorie {
     display: inline-block;
     padding: 10px 18px;
     margin-bottom: 0;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 div.Kategorie {
@@ -146,7 +146,6 @@ div.tipp {
 @media only screen and (min-width: 720px) {
   /* For desktop: */
     div#WhiteBox {
-        margin-top: 0px;
         margin-bottom: 80px;
         margin-left: auto;
         margin-right: auto;
@@ -154,10 +153,6 @@ div.tipp {
         padding: 30px;
         min-width: 600px;
         max-width: 800px;
-    }
-
-    p.Kategorie {
-        margin-top: 30px;
     }
 
     table#tableOnImg {
